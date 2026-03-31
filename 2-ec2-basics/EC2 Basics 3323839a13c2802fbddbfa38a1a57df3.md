@@ -1,7 +1,5 @@
 # EC2 Basics
 
-# EC2 Basics
-
 Think of **EC2** like renting a computer in AWS’s data center instead of buying your own server. You choose the **size**, **operating system**, and how long you want to run it, then scale up or down when traffic changes. An **EC2 instance** is basically a virtual server you control.
 
 **Key Use Case:**
