@@ -1,10 +1,10 @@
 # EC2 Storage
 
-Local index for the EC2 storage chapter, covering block storage, file storage, backup features, and storage comparisons.
+Local index for the EC2 storage chapter, covering EBS, snapshots, AMIs, EFS, lifecycle options, and storage comparisons.
 
 ## Contents
 
-- [EC2 Storage](./EC2%20Storage%203343839a13c28058b2c2de7c478889cb.md) - Explains EBS volumes, snapshots, AMIs, EFS, lifecycle options, and storage selection tradeoffs.
+- [EC2 Storage](./EC2%20Storage%203343839a13c28058b2c2de7c478889cb.md) - EBS volumes, snapshots, AMIs, EFS, lifecycle options, and storage comparisons.
   - [Elastic Storage Block (ESB)](./EC2%20Storage%203343839a13c28058b2c2de7c478889cb.md#elastic-storage-block-esb)
   - [EBS Snapshot](./EC2%20Storage%203343839a13c28058b2c2de7c478889cb.md#ebs-snapshot)
   - [EBS Snapshot Features](./EC2%20Storage%203343839a13c28058b2c2de7c478889cb.md#ebs-snapshot-features)
