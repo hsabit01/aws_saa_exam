@@ -10,6 +10,7 @@ Study notes for AWS Solutions Architect Associate topics, organized into chapter
 4. [EC2 Storage](./4.EC2%20Storage/README.md) - EBS, snapshots, AMIs, EFS, and storage tradeoffs.
 5. [Scalability and High Availability](./5.Scalability%20and%20High%20Availability/README.md) - Load balancing, traffic distribution, and Auto Scaling patterns.
 6. [RDS, Aurora, and ElastiCache](./6.RDS,Aurora,ElasticCache/README.md) - Managed relational databases, Aurora features, database protection, and caching patterns.
+7. [Route 53](./7.Route%2053/README.md) - DNS records, hosted zones, health checks, and routing policies for global traffic control.
 
 ## Documentation Map
 
@@ -80,3 +81,22 @@ Study notes for AWS Solutions Architect Associate topics, organized into chapter
   - [RDS Proxy](./6.RDS,Aurora,ElasticCache/RDS,%20Aurora,%20and%20ElastiCache%203353839a13c28014af7ed6183405490b.md#rds-proxy)
   - [ElastiCache](./6.RDS,Aurora,ElasticCache/RDS,%20Aurora,%20and%20ElastiCache%203353839a13c28014af7ed6183405490b.md#elasticache)
   - [ElastiCache Security](./6.RDS,Aurora,ElasticCache/RDS,%20Aurora,%20and%20ElastiCache%203353839a13c28014af7ed6183405490b.md#elasticache-security)
+
+### [Route 53](./7.Route%2053/README.md)
+
+- [Route 53](./7.Route%2053/Route%2053%203363839a13c28005aa13c7ba79ce339d.md) - DNS fundamentals, hosted zones, alias behavior, health checks, and routing policy comparisons.
+  - [Record Types](./7.Route%2053/Route%2053%203363839a13c28005aa13c7ba79ce339d.md#record-types)
+  - [Hosted Zones](./7.Route%2053/Route%2053%203363839a13c28005aa13c7ba79ce339d.md#hosted-zones)
+  - [Record TTL](./7.Route%2053/Route%2053%203363839a13c28005aa13c7ba79ce339d.md#record-ttl)
+  - [CNAME vs Alias](./7.Route%2053/Route%2053%203363839a13c28005aa13c7ba79ce339d.md#cname-vs-alias)
+  - [Alias and Alias Targets Records](./7.Route%2053/Route%2053%203363839a13c28005aa13c7ba79ce339d.md#alias-and-alias-targets-records)
+  - [Routing Policies](./7.Route%2053/Route%2053%203363839a13c28005aa13c7ba79ce339d.md#routing-policies)
+  - [Simple](./7.Route%2053/Route%2053%203363839a13c28005aa13c7ba79ce339d.md#simple)
+  - [Weighted Based Routing](./7.Route%2053/Route%2053%203363839a13c28005aa13c7ba79ce339d.md#weighted-based-routing)
+  - [Latency Based Routing](./7.Route%2053/Route%2053%203363839a13c28005aa13c7ba79ce339d.md#latency-based-routing)
+  - [Health Check](./7.Route%2053/Route%2053%203363839a13c28005aa13c7ba79ce339d.md#health-check)
+  - [Geolocation Routing](./7.Route%2053/Route%2053%203363839a13c28005aa13c7ba79ce339d.md#geolocation-routing)
+  - [Geoproximity Routing](./7.Route%2053/Route%2053%203363839a13c28005aa13c7ba79ce339d.md#geoproximity-routing)
+  - [Geolocation vs Geoproximity](./7.Route%2053/Route%2053%203363839a13c28005aa13c7ba79ce339d.md#geolocation-vs-geoproximity)
+  - [IP-based Routing](./7.Route%2053/Route%2053%203363839a13c28005aa13c7ba79ce339d.md#ip-based-routing)
+  - [Multi-Value Answer Routing](./7.Route%2053/Route%2053%203363839a13c28005aa13c7ba79ce339d.md#multi-value-answer-routing)
