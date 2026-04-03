@@ -1,6 +1,6 @@
 # Route 53
 
-Local index for the Route 53 chapter, covering DNS records, hosted zones, health checks, and routing policy choices.
+Local index for the Route 53 chapter, covering DNS records, hosted zones, alias behavior, health checks, and routing policies for global traffic control.
 
 ## Contents
 
@@ -20,3 +20,4 @@ Local index for the Route 53 chapter, covering DNS records, hosted zones, health
   - [Geolocation vs Geoproximity](./Route%2053%203363839a13c28005aa13c7ba79ce339d.md#geolocation-vs-geoproximity)
   - [IP-based Routing](./Route%2053%203363839a13c28005aa13c7ba79ce339d.md#ip-based-routing)
   - [Multi-Value Answer Routing](./Route%2053%203363839a13c28005aa13c7ba79ce339d.md#multi-value-answer-routing)
+  - [Failover Routing](./Route%2053%203363839a13c28005aa13c7ba79ce339d.md#failover-routing)

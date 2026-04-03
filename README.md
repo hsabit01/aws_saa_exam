@@ -100,3 +100,4 @@ Study notes for AWS Solutions Architect Associate topics, organized into chapter
   - [Geolocation vs Geoproximity](./7.Route%2053/Route%2053%203363839a13c28005aa13c7ba79ce339d.md#geolocation-vs-geoproximity)
   - [IP-based Routing](./7.Route%2053/Route%2053%203363839a13c28005aa13c7ba79ce339d.md#ip-based-routing)
   - [Multi-Value Answer Routing](./7.Route%2053/Route%2053%203363839a13c28005aa13c7ba79ce339d.md#multi-value-answer-routing)
+  - [Failover Routing](./7.Route%2053/Route%2053%203363839a13c28005aa13c7ba79ce339d.md#failover-routing)
