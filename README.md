@@ -11,6 +11,7 @@ Study notes for AWS Solutions Architect Associate topics, organized into chapter
 5. [Scalability and High Availability](./5.Scalability%20and%20High%20Availability/README.md) - Load balancing, traffic distribution, and Auto Scaling patterns.
 6. [RDS, Aurora, and ElastiCache](./6.RDS,Aurora,ElasticCache/README.md) - Managed relational databases, Aurora features, database protection, and caching patterns.
 7. [Route 53](./7.Route%2053/README.md) - DNS records, hosted zones, health checks, and routing policies for global traffic control.
+8. [Golden AMI and Elastic Beanstalk](./8.Golden%20AMI%20and%20Elastic%20Beanstalk/README.md) - Standardized EC2 images and managed application deployments for faster platform setup.
 
 ## Documentation Map
 
@@ -101,3 +102,9 @@ Study notes for AWS Solutions Architect Associate topics, organized into chapter
   - [IP-based Routing](./7.Route%2053/Route%2053%203363839a13c28005aa13c7ba79ce339d.md#ip-based-routing)
   - [Multi-Value Answer Routing](./7.Route%2053/Route%2053%203363839a13c28005aa13c7ba79ce339d.md#multi-value-answer-routing)
   - [Failover Routing](./7.Route%2053/Route%2053%203363839a13c28005aa13c7ba79ce339d.md#failover-routing)
+
+### [Golden AMI and Elastic Beanstalk](./8.Golden%20AMI%20and%20Elastic%20Beanstalk/README.md)
+
+- [Golden AMI and Elastic Beanstalk](./8.Golden%20AMI%20and%20Elastic%20Beanstalk/Golden%20AMI%20and%20Elastic%20Beanstalk%203383839a13c2809e8cd0eb1200c8feb2.md) - Standardized AMI patterns for repeatable EC2 launches and Elastic Beanstalk for managed web application deployment.
+  - [Golden AMI](./8.Golden%20AMI%20and%20Elastic%20Beanstalk/Golden%20AMI%20and%20Elastic%20Beanstalk%203383839a13c2809e8cd0eb1200c8feb2.md#golden-ami)
+  - [Elastic Beanstalk](./8.Golden%20AMI%20and%20Elastic%20Beanstalk/Golden%20AMI%20and%20Elastic%20Beanstalk%203383839a13c2809e8cd0eb1200c8feb2.md#elastic-beanstalk)
