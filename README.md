@@ -13,6 +13,7 @@ Study notes for AWS Solutions Architect Associate topics, organized into chapter
 7. [Route 53](./7.Route%2053/README.md) - DNS records, hosted zones, health checks, and routing policies for global traffic control.
 8. [Golden AMI and Elastic Beanstalk](./8.Golden%20AMI%20and%20Elastic%20Beanstalk/README.md) - Standardized EC2 images and managed application deployments for faster platform setup.
 9. [Amazon S3](./9.Amazon%20S3/README.md) - Object storage fundamentals, lifecycle automation, storage classes, access controls, replication patterns, and static website hosting.
+10. [Amazon S3 - Advance](./10.Amazon%20S3%20-%20Advance/README.md) - Advanced S3 features for shared-data billing, event-driven workflows, and Storage Lens analytics.
 
 ## Documentation Map
 
@@ -131,3 +132,13 @@ Study notes for AWS Solutions Architect Associate topics, organized into chapter
   - [Auto-Optimizing (S3 Intelligent-Tiering)](./9.Amazon%20S3/Amazon%20S3%203393839a13c28076955dfb269211a6fd.md#auto-optimizing-s3-intelligent-tiering)
   - [Infrequently Accessed (S3 Standard-IA & One Zone-IA)](./9.Amazon%20S3/Amazon%20S3%203393839a13c28076955dfb269211a6fd.md#infrequently-accessed-s3-standard-ia--one-zone-ia)
   - [Rarely Accessed (Glacier Classes)](./9.Amazon%20S3/Amazon%20S3%203393839a13c28076955dfb269211a6fd.md#rarely-accessed-glacier-classes)
+
+### [Amazon S3 - Advance](./10.Amazon%20S3%20-%20Advance/README.md)
+
+- [Amazon S3 - Advance](./10.Amazon%20S3%20-%20Advance/Amazon%20S3%20-%20Advance%203393839a13c2800fb947fd0df78a58d8.md) - Advanced S3 features for requester-paid access, event-driven integrations, and account-wide storage analytics.
+  - [Requester Pay](./10.Amazon%20S3%20-%20Advance/Amazon%20S3%20-%20Advance%203393839a13c2800fb947fd0df78a58d8.md#requester-pay)
+  - [Event Notification](./10.Amazon%20S3%20-%20Advance/Amazon%20S3%20-%20Advance%203393839a13c2800fb947fd0df78a58d8.md#event-notification)
+  - [S3 Storage Lens](./10.Amazon%20S3%20-%20Advance/Amazon%20S3%20-%20Advance%203393839a13c2800fb947fd0df78a58d8.md#s3-storage-lens)
+  - [Storage Lens Metrics](./10.Amazon%20S3%20-%20Advance/Amazon%20S3%20-%20Advance%203393839a13c2800fb947fd0df78a58d8.md#storage-lens-metrics)
+  - [Storage Lens Metrics Categories](./10.Amazon%20S3%20-%20Advance/Amazon%20S3%20-%20Advance%203393839a13c2800fb947fd0df78a58d8.md#storage-lens-metrics-categories)
+  - [Storage Lens Default Dashboard](./10.Amazon%20S3%20-%20Advance/Amazon%20S3%20-%20Advance%203393839a13c2800fb947fd0df78a58d8.md#storage-lens-default-dashboard)
