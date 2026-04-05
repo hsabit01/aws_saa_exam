@@ -12,6 +12,7 @@ Study notes for AWS Solutions Architect Associate topics, organized into chapter
 6. [RDS, Aurora, and ElastiCache](./6.RDS,Aurora,ElasticCache/README.md) - Managed relational databases, Aurora features, database protection, and caching patterns.
 7. [Route 53](./7.Route%2053/README.md) - DNS records, hosted zones, health checks, and routing policies for global traffic control.
 8. [Golden AMI and Elastic Beanstalk](./8.Golden%20AMI%20and%20Elastic%20Beanstalk/README.md) - Standardized EC2 images and managed application deployments for faster platform setup.
+9. [Amazon S3](./9.Amazon%20S3/README.md) - Object storage fundamentals, lifecycle automation, access controls, replication patterns, and static website hosting.
 
 ## Documentation Map
 
@@ -108,3 +109,21 @@ Study notes for AWS Solutions Architect Associate topics, organized into chapter
 - [Golden AMI and Elastic Beanstalk](./8.Golden%20AMI%20and%20Elastic%20Beanstalk/Golden%20AMI%20and%20Elastic%20Beanstalk%203383839a13c2809e8cd0eb1200c8feb2.md) - Standardized AMI patterns for repeatable EC2 launches and Elastic Beanstalk for managed web application deployment.
   - [Golden AMI](./8.Golden%20AMI%20and%20Elastic%20Beanstalk/Golden%20AMI%20and%20Elastic%20Beanstalk%203383839a13c2809e8cd0eb1200c8feb2.md#golden-ami)
   - [Elastic Beanstalk](./8.Golden%20AMI%20and%20Elastic%20Beanstalk/Golden%20AMI%20and%20Elastic%20Beanstalk%203383839a13c2809e8cd0eb1200c8feb2.md#elastic-beanstalk)
+
+### [Amazon S3](./9.Amazon%20S3/README.md)
+
+- [Amazon S3](./9.Amazon%20S3/Amazon%20S3%203393839a13c28076955dfb269211a6fd.md) - Object storage concepts, lifecycle rules, access controls, replication models, static websites, and version protection.
+  - [Overview](./9.Amazon%20S3/Amazon%20S3%203393839a13c28076955dfb269211a6fd.md#overview)
+  - [S3 Lifecycle](./9.Amazon%20S3/Amazon%20S3%203393839a13c28076955dfb269211a6fd.md#s3-lifecycle)
+  - [S3 Object Lock](./9.Amazon%20S3/Amazon%20S3%203393839a13c28076955dfb269211a6fd.md#s3-object-lock)
+  - [S3 Object Replication](./9.Amazon%20S3/Amazon%20S3%203393839a13c28076955dfb269211a6fd.md#s3-object-replication)
+  - [S3 Object Batch Operations](./9.Amazon%20S3/Amazon%20S3%203393839a13c28076955dfb269211a6fd.md#s3-object-batch-operations)
+  - [S3 Block Public Access](./9.Amazon%20S3/Amazon%20S3%203393839a13c28076955dfb269211a6fd.md#s3-block-public-access)
+  - [S3 IAM Access](./9.Amazon%20S3/Amazon%20S3%203393839a13c28076955dfb269211a6fd.md#s3-iam-access)
+  - [S3 Bucket Policies](./9.Amazon%20S3/Amazon%20S3%203393839a13c28076955dfb269211a6fd.md#s3-bucket-policies)
+  - [S3 Static Website](./9.Amazon%20S3/Amazon%20S3%203393839a13c28076955dfb269211a6fd.md#s3-static-website)
+  - [S3 Versioning](./9.Amazon%20S3/Amazon%20S3%203393839a13c28076955dfb269211a6fd.md#s3-versioning)
+  - [Live Replication](./9.Amazon%20S3/Amazon%20S3%203393839a13c28076955dfb269211a6fd.md#live-replication)
+  - [On-Demand Replication](./9.Amazon%20S3/Amazon%20S3%203393839a13c28076955dfb269211a6fd.md#on-demand-replication)
+  - [Cross-Region Replication (CRR)](./9.Amazon%20S3/Amazon%20S3%203393839a13c28076955dfb269211a6fd.md#cross-region-replication-crr)
+  - [Same-Region Replication (SRR)](./9.Amazon%20S3/Amazon%20S3%203393839a13c28076955dfb269211a6fd.md#same-region-replication-srr)
