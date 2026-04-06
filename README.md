@@ -14,6 +14,7 @@ Study notes for AWS Solutions Architect Associate topics, organized into chapter
 8. [Golden AMI and Elastic Beanstalk](./8.Golden%20AMI%20and%20Elastic%20Beanstalk/README.md) - Standardized EC2 images and managed application deployments for faster platform setup.
 9. [Amazon S3](./9.Amazon%20S3/README.md) - Object storage fundamentals, lifecycle automation, storage classes, access controls, replication patterns, and static website hosting.
 10. [Amazon S3 - Advance](./10.Amazon%20S3%20-%20Advance/README.md) - Advanced S3 features for shared-data billing, event-driven workflows, and Storage Lens analytics.
+11. [Amazon S3 - Security](./11.Amazon%20S3%20-%20Security/README.md) - S3 encryption models, transport security, retention controls, access auditing, and specialized access patterns.
 
 ## Documentation Map
 
@@ -142,3 +143,22 @@ Study notes for AWS Solutions Architect Associate topics, organized into chapter
   - [Storage Lens Metrics](./10.Amazon%20S3%20-%20Advance/Amazon%20S3%20-%20Advance%203393839a13c2800fb947fd0df78a58d8.md#storage-lens-metrics)
   - [Storage Lens Metrics Categories](./10.Amazon%20S3%20-%20Advance/Amazon%20S3%20-%20Advance%203393839a13c2800fb947fd0df78a58d8.md#storage-lens-metrics-categories)
   - [Storage Lens Default Dashboard](./10.Amazon%20S3%20-%20Advance/Amazon%20S3%20-%20Advance%203393839a13c2800fb947fd0df78a58d8.md#storage-lens-default-dashboard)
+
+### [Amazon S3 - Security](./11.Amazon%20S3%20-%20Security/README.md)
+
+- [Amazon S3 - Security](./11.Amazon%20S3%20-%20Security/Amazon%20S3%20-%20Security%203393839a13c2801ab07fea5523976ec0.md) - S3 encryption options, browser and network access controls, deletion safeguards, auditing features, and access point patterns.
+  - [S3 Server-Side Encryption (SSE)](./11.Amazon%20S3%20-%20Security/Amazon%20S3%20-%20Security%203393839a13c2801ab07fea5523976ec0.md#s3-server-side-encryption-sse)
+  - [S3 Encryption with Amazon-Managed Key (SSE-S3)](./11.Amazon%20S3%20-%20Security/Amazon%20S3%20-%20Security%203393839a13c2801ab07fea5523976ec0.md#s3-encryption-with-amazon-managed-key-sse-s3)
+  - [S3 Encryption with AWS KMS (SSE-KMS)](./11.Amazon%20S3%20-%20Security/Amazon%20S3%20-%20Security%203393839a13c2801ab07fea5523976ec0.md#s3-encryption-with-aws-kms-sse-kms)
+  - [S3 Encryption with Customer-Provided Key (SSE-C)](./11.Amazon%20S3%20-%20Security/Amazon%20S3%20-%20Security%203393839a13c2801ab07fea5523976ec0.md#s3-encryption-with-customer-provided-key-sse-c)
+  - [S3 Client-Side Encryption](./11.Amazon%20S3%20-%20Security/Amazon%20S3%20-%20Security%203393839a13c2801ab07fea5523976ec0.md#s3-client-side-encryption)
+  - [S3 In-Transit Encryption](./11.Amazon%20S3%20-%20Security/Amazon%20S3%20-%20Security%203393839a13c2801ab07fea5523976ec0.md#s3-in-transit-encryption)
+  - [S3 CORS](./11.Amazon%20S3%20-%20Security/Amazon%20S3%20-%20Security%203393839a13c2801ab07fea5523976ec0.md#s3-cors)
+  - [S3 MFA Delete](./11.Amazon%20S3%20-%20Security/Amazon%20S3%20-%20Security%203393839a13c2801ab07fea5523976ec0.md#s3-mfa-delete)
+  - [S3 Access Logs](./11.Amazon%20S3%20-%20Security/Amazon%20S3%20-%20Security%203393839a13c2801ab07fea5523976ec0.md#s3-access-logs)
+  - [S3 Pre-signed URLs](./11.Amazon%20S3%20-%20Security/Amazon%20S3%20-%20Security%203393839a13c2801ab07fea5523976ec0.md#s3-pre-signed-urls)
+  - [Glacier Vault Lock](./11.Amazon%20S3%20-%20Security/Amazon%20S3%20-%20Security%203393839a13c2801ab07fea5523976ec0.md#glacier-vault-lock)
+  - [S3 Object Lock](./11.Amazon%20S3%20-%20Security/Amazon%20S3%20-%20Security%203393839a13c2801ab07fea5523976ec0.md#s3-object-lock)
+  - [S3 Access Points](./11.Amazon%20S3%20-%20Security/Amazon%20S3%20-%20Security%203393839a13c2801ab07fea5523976ec0.md#s3-access-points)
+  - [S3 Access Points - VPC Origin](./11.Amazon%20S3%20-%20Security/Amazon%20S3%20-%20Security%203393839a13c2801ab07fea5523976ec0.md#s3-access-points--vpc-origin)
+  - [S3 Access Points - Lambda Functions (S3 Object Lambda)](./11.Amazon%20S3%20-%20Security/Amazon%20S3%20-%20Security%203393839a13c2801ab07fea5523976ec0.md#s3-access-points--lambda-functions-s3-object-lambda)
