@@ -15,6 +15,7 @@ Study notes for AWS Solutions Architect Associate topics, organized into chapter
 9. [Amazon S3](./9.Amazon%20S3/README.md) - Object storage fundamentals, lifecycle automation, storage classes, access controls, replication patterns, and static website hosting.
 10. [Amazon S3 - Advance](./10.Amazon%20S3%20-%20Advance/README.md) - Advanced S3 features for shared-data billing, event-driven workflows, and Storage Lens analytics.
 11. [Amazon S3 - Security](./11.Amazon%20S3%20-%20Security/README.md) - S3 encryption models, transport security, retention controls, access auditing, and specialized access patterns.
+12. [CloudFront and Global Accelerator](./12.CloudFront%20and%20Global%20Accelerator%20/README.md) - Edge caching, geo restrictions, cache invalidation, and global application traffic acceleration.
 
 ## Documentation Map
 
@@ -162,3 +163,12 @@ Study notes for AWS Solutions Architect Associate topics, organized into chapter
   - [S3 Access Points](./11.Amazon%20S3%20-%20Security/Amazon%20S3%20-%20Security%203393839a13c2801ab07fea5523976ec0.md#s3-access-points)
   - [S3 Access Points - VPC Origin](./11.Amazon%20S3%20-%20Security/Amazon%20S3%20-%20Security%203393839a13c2801ab07fea5523976ec0.md#s3-access-points--vpc-origin)
   - [S3 Access Points - Lambda Functions (S3 Object Lambda)](./11.Amazon%20S3%20-%20Security/Amazon%20S3%20-%20Security%203393839a13c2801ab07fea5523976ec0.md#s3-access-points--lambda-functions-s3-object-lambda)
+
+### [CloudFront and Global Accelerator](./12.CloudFront%20and%20Global%20Accelerator%20/README.md)
+
+- [CloudFront and Global Accelerator](./12.CloudFront%20and%20Global%20Accelerator%20/CloudFront%20and%20Global%20Accelerator%2033a3839a13c28043967bc368b392e051.md) - CloudFront edge caching, geo restriction, cache invalidation, and Global Accelerator routing for low-latency multi-region applications.
+  - [CloudFront](./12.CloudFront%20and%20Global%20Accelerator%20/CloudFront%20and%20Global%20Accelerator%2033a3839a13c28043967bc368b392e051.md#cloudfront)
+  - [CloudFront Geo Restriction](./12.CloudFront%20and%20Global%20Accelerator%20/CloudFront%20and%20Global%20Accelerator%2033a3839a13c28043967bc368b392e051.md#cloudfront-geo-restriction)
+  - [CloudFront cache invalidation](./12.CloudFront%20and%20Global%20Accelerator%20/CloudFront%20and%20Global%20Accelerator%2033a3839a13c28043967bc368b392e051.md#cloudfront-cache-invalidation)
+  - [AWS Global Accelerator](./12.CloudFront%20and%20Global%20Accelerator%20/CloudFront%20and%20Global%20Accelerator%2033a3839a13c28043967bc368b392e051.md#aws-global-accelerator)
+  - [CloudFront vs Global Accelerator](./12.CloudFront%20and%20Global%20Accelerator%20/CloudFront%20and%20Global%20Accelerator%2033a3839a13c28043967bc368b392e051.md#cloudfront-vs-global-accelerator)
