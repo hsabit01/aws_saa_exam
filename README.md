@@ -16,6 +16,7 @@ Study notes for AWS Solutions Architect Associate topics, organized into chapter
 10. [Amazon S3 - Advance](./10.Amazon%20S3%20-%20Advance/README.md) - Advanced S3 features for shared-data billing, event-driven workflows, and Storage Lens analytics.
 11. [Amazon S3 - Security](./11.Amazon%20S3%20-%20Security/README.md) - S3 encryption models, transport security, retention controls, access auditing, and specialized access patterns.
 12. [CloudFront and Global Accelerator](./12.CloudFront%20and%20Global%20Accelerator%20/README.md) - Edge caching, geo restrictions, cache invalidation, and global application traffic acceleration.
+13. [AWS Storage Extra](./13.AWS%20Storage%20Extra/README.md) - Offline migration, hybrid gateways, managed file storage, and network transfer services for large-scale data movement.
 
 ## Documentation Map
 
@@ -172,3 +173,17 @@ Study notes for AWS Solutions Architect Associate topics, organized into chapter
   - [CloudFront cache invalidation](./12.CloudFront%20and%20Global%20Accelerator%20/CloudFront%20and%20Global%20Accelerator%2033a3839a13c28043967bc368b392e051.md#cloudfront-cache-invalidation)
   - [AWS Global Accelerator](./12.CloudFront%20and%20Global%20Accelerator%20/CloudFront%20and%20Global%20Accelerator%2033a3839a13c28043967bc368b392e051.md#aws-global-accelerator)
   - [CloudFront vs Global Accelerator](./12.CloudFront%20and%20Global%20Accelerator%20/CloudFront%20and%20Global%20Accelerator%2033a3839a13c28043967bc368b392e051.md#cloudfront-vs-global-accelerator)
+
+### [AWS Storage Extra](./13.AWS%20Storage%20Extra/README.md)
+
+- [AWS Storage Extras](./13.AWS%20Storage%20Extra/AWS%20Storage%20Extras%2033b3839a13c280f0a877ff4f783f5236.md) - Offline migration, edge locality, hybrid gateways, managed file systems, and transfer services for moving data into AWS.
+  - [AWS Snowball](./13.AWS%20Storage%20Extra/AWS%20Storage%20Extras%2033b3839a13c280f0a877ff4f783f5236.md#aws-snowball)
+  - [AWS Edge Computing](./13.AWS%20Storage%20Extra/AWS%20Storage%20Extras%2033b3839a13c280f0a877ff4f783f5236.md#aws-edge-computing)
+  - [Snowball into Glacier](./13.AWS%20Storage%20Extra/AWS%20Storage%20Extras%2033b3839a13c280f0a877ff4f783f5236.md#snowball-into-glacier)
+  - [Amazon FSx](./13.AWS%20Storage%20Extra/AWS%20Storage%20Extras%2033b3839a13c280f0a877ff4f783f5236.md#amazon-fsx)
+  - [AWS Storage Gateway](./13.AWS%20Storage%20Extra/AWS%20Storage%20Extras%2033b3839a13c280f0a877ff4f783f5236.md#aws-storage-gateway)
+  - [AWS File Gateway](./13.AWS%20Storage%20Extra/AWS%20Storage%20Extras%2033b3839a13c280f0a877ff4f783f5236.md#aws-file-gateway)
+  - [AWS Volume Gateway](./13.AWS%20Storage%20Extra/AWS%20Storage%20Extras%2033b3839a13c280f0a877ff4f783f5236.md#aws-volume-gateway)
+  - [AWS Tape Gateway](./13.AWS%20Storage%20Extra/AWS%20Storage%20Extras%2033b3839a13c280f0a877ff4f783f5236.md#aws-tape-gateway)
+  - [AWS Transfer Family](./13.AWS%20Storage%20Extra/AWS%20Storage%20Extras%2033b3839a13c280f0a877ff4f783f5236.md#aws-transfer-family)
+  - [AWS DataSync](./13.AWS%20Storage%20Extra/AWS%20Storage%20Extras%2033b3839a13c280f0a877ff4f783f5236.md#aws-datasync)
