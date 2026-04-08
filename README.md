@@ -17,6 +17,7 @@ Study notes for AWS Solutions Architect Associate topics, organized into chapter
 11. [Amazon S3 - Security](./11.Amazon%20S3%20-%20Security/README.md) - S3 encryption models, transport security, retention controls, access auditing, and specialized access patterns.
 12. [CloudFront and Global Accelerator](./12.CloudFront%20and%20Global%20Accelerator%20/README.md) - Edge caching, geo restrictions, cache invalidation, and global application traffic acceleration.
 13. [AWS Storage Extra](./13.AWS%20Storage%20Extra/README.md) - Offline migration, hybrid gateways, managed file storage, and network transfer services for large-scale data movement.
+14. [Amazon SQS, SNS, and Kinesis](./14.Amazon%20SQS,SNS,Kinesis/README.md) - Queueing, pub/sub, streaming delivery, and broker migration patterns across SQS, SNS, Kinesis, Firehose, and Amazon MQ.
 
 ## Documentation Map
 
@@ -187,3 +188,21 @@ Study notes for AWS Solutions Architect Associate topics, organized into chapter
   - [AWS Tape Gateway](./13.AWS%20Storage%20Extra/AWS%20Storage%20Extras%2033b3839a13c280f0a877ff4f783f5236.md#aws-tape-gateway)
   - [AWS Transfer Family](./13.AWS%20Storage%20Extra/AWS%20Storage%20Extras%2033b3839a13c280f0a877ff4f783f5236.md#aws-transfer-family)
   - [AWS DataSync](./13.AWS%20Storage%20Extra/AWS%20Storage%20Extras%2033b3839a13c280f0a877ff4f783f5236.md#aws-datasync)
+
+### [Amazon SQS, SNS, and Kinesis](./14.Amazon%20SQS,SNS,Kinesis/README.md)
+
+- [Amazon SQS,SNS,Kinesis](./14.Amazon%20SQS,SNS,Kinesis/Amazon%20SQS,SNS,Kinesis%2033c3839a13c28043a480d2669e78f692.md) - Messaging and streaming patterns for SQS queues, SNS fan-out, Kinesis streams and Firehose delivery, plus Amazon MQ migration scenarios.
+  - [Amazon SQS](./14.Amazon%20SQS,SNS,Kinesis/Amazon%20SQS,SNS,Kinesis%2033c3839a13c28043a480d2669e78f692.md#amazon-sqs)
+  - [Amazon SQS Consumer Autoscaling using SQS metrics](./14.Amazon%20SQS,SNS,Kinesis/Amazon%20SQS,SNS,Kinesis%2033c3839a13c28043a480d2669e78f692.md#amazon-sqs-consumer-autoscaling-using-sqs-metrics)
+  - [Amazon SQS Security](./14.Amazon%20SQS,SNS,Kinesis/Amazon%20SQS,SNS,Kinesis%2033c3839a13c28043a480d2669e78f692.md#amazon-sqs-security)
+  - [AWS SQS Visibility Timeout](./14.Amazon%20SQS,SNS,Kinesis/Amazon%20SQS,SNS,Kinesis%2033c3839a13c28043a480d2669e78f692.md#aws-sqs-visibility-timeout)
+  - [AWS SQS Long Polling](./14.Amazon%20SQS,SNS,Kinesis/Amazon%20SQS,SNS,Kinesis%2033c3839a13c28043a480d2669e78f692.md#aws-sqs-long-polling)
+  - [AWS SQS FIFO](./14.Amazon%20SQS,SNS,Kinesis/Amazon%20SQS,SNS,Kinesis%2033c3839a13c28043a480d2669e78f692.md#aws-sqs-fifo)
+  - [Amazon SNS](./14.Amazon%20SQS,SNS,Kinesis/Amazon%20SQS,SNS,Kinesis%2033c3839a13c28043a480d2669e78f692.md#amazon-sns)
+  - [Amazon SNS Security](./14.Amazon%20SQS,SNS,Kinesis/Amazon%20SQS,SNS,Kinesis%2033c3839a13c28043a480d2669e78f692.md#amazon-sns-security)
+  - [Amazon SNS + SQS Fan out](./14.Amazon%20SQS,SNS,Kinesis/Amazon%20SQS,SNS,Kinesis%2033c3839a13c28043a480d2669e78f692.md#amazon-sns-sqs-fan-out)
+  - [Amazon Kinesis Data Stream](./14.Amazon%20SQS,SNS,Kinesis/Amazon%20SQS,SNS,Kinesis%2033c3839a13c28043a480d2669e78f692.md#amazon-kinesis-data-stream)
+  - [Amazon Data Firehose](./14.Amazon%20SQS,SNS,Kinesis/Amazon%20SQS,SNS,Kinesis%2033c3839a13c28043a480d2669e78f692.md#amazon-data-firehose)
+  - [Amazon Data Firehose vs Amazon Kinesis Data Stream](./14.Amazon%20SQS,SNS,Kinesis/Amazon%20SQS,SNS,Kinesis%2033c3839a13c28043a480d2669e78f692.md#amazon-data-firehose-vs-amazon-kinesis-data-stream)
+  - [SQS vs SNS vs Kinesis](./14.Amazon%20SQS,SNS,Kinesis/Amazon%20SQS,SNS,Kinesis%2033c3839a13c28043a480d2669e78f692.md#sqs-vs-sns-vs-kinesis)
+  - [Amazon MQ](./14.Amazon%20SQS,SNS,Kinesis/Amazon%20SQS,SNS,Kinesis%2033c3839a13c28043a480d2669e78f692.md#amazon-mq)
